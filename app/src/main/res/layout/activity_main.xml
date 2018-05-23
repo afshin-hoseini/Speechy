@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tinypro.ir.speechy.MainActivity"
+    android:clipChildren="false"
+    android:clipToPadding="false">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtResult"/>
+
+    <tinypro.ir.speechylib.SpeechyButton
+        android:id="@+id/speechy"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_gravity="center"
+        android:background="#FFBF5EFF"
+        android:elevation="6dp"
+        app:iconTintColor="#6cbf5eff"
+        app:soundVisualizationColor="#6cbf5eff" />
+
+</FrameLayout>

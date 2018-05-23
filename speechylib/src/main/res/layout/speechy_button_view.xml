@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ImageSwitcher
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:id="@+id/img_icon"
+    android:layout_gravity="center"
+    android:clipToPadding="false"
+    android:background="@drawable/speechy_button_bkg"/>
